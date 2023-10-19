@@ -7,7 +7,7 @@ export const Projects = () => {
         <div className="projects">
             <div className="projects-header">
                 <div><span className="my">My</span> Projects</div>
-                <div className="projects-note"><em><strong>NOTE:</strong>  All my websites are deployed on Heroku app in sleep mode. Please wait few seconds until they open ... don't lose your faith :) </em></div>     
+                <div className="projects-note"><em><strong>NOTE:</strong>  Some websites that required backend are deployed on Heroku App in sleep mode. Please wait few seconds until they open. </em></div>     
             </div>
             <div className="projects-container">
 
@@ -121,7 +121,7 @@ export const Projects = () => {
                         </div>     
                     </div>
                     <div className="projects-description">
-                        More complex and advance applications that require also backend knowledge. (Fullstack projects). 
+                        More complex and advance applications with React that require API calls or backend knowledge. (Fullstack projects). 
                     </div>   
                 </div>
 {/* 

@@ -4,6 +4,8 @@ import "./Home.css";
 import IconYoutube from "../Icons/youtube.svg";
 import IconLinkedin from "../Icons/linkedin.svg";
 import IconGithub from "../Icons/github.svg";
+import {Typical} from "./Typical";
+import React from "react";
 
 export const Home = () => {
     return (
@@ -27,7 +29,7 @@ export const Home = () => {
                 </div>
                     <div className="container-description">
                         <p className="heading-paragraph">
-                            {/* <Typical className="auto-type" steps={[" ", 1000, "Hello traveler ...", 1500]} loop={1} wrapper="b"/> */}
+                            <Typical/>
                         </p>
                         <div className="headings">
                             <p className="heading2">RADU</p>
