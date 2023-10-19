@@ -15,7 +15,7 @@ export const Projects = () => {
                 <div className="projects-myProjects">
                     <div className="projects-image--container"> 
                         <img className="projects-image" src="../imgs/responsive.png" alt="pic" />      
-                        <a href="https://responsivetemplatetemporarly-de1bcce22749.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-link">
+                        <a href="https://responsivetemplates.netlify.app" target="_blank" rel="noopener noreferrer" className="project-link">
                             <img className="icons-project" height={50} src={Arrow} alt="logo" />    
                         </a>              
                     </div>
