@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'voyager';
-    src: url("../../../public/fonts/Voyager_Light.otf");
+    src: url("/fonts/Voyager_Light.otf");
 }
 
 :root {
@@ -9,7 +9,7 @@
 
 
 .projects {
-    background-image: url("../../../public/imgs/home.jpg");
+    background-image: url("/imgs/home.jpg");
     display:flex;
     flex:1;
     flex-direction: column;
@@ -155,7 +155,7 @@
 
 
 /* special planetary css animation */
-.projects-image--planetary {
+/* .projects-image--planetary {
     width: 250px;
     height: 250px;
     top:0;
@@ -164,7 +164,7 @@
     right:0;
     margin: auto;
     border-radius: 50%;
-    background-image: url("../../../public/imgs/planet.jpg");
+    background-image: url("/imgs/planet.jpg");
     background-size: cover;
     box-shadow: -25px -15px 60px 0.5px;
     animation: spin 20s linear infinite;
@@ -174,7 +174,7 @@
 
 @keyframes spin {
     100% {background-position:100%;}
-}
+} */
 
 
 

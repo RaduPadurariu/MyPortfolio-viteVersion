@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'voyager';
-    src: url("../../../public/fonts/Voyager_Light.otf");
+    src: url("/fonts/Voyager_Light.otf");
 }
 
 :root {
