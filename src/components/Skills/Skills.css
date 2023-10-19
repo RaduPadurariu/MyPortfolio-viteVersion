@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'voyager';
-    src: url("../../../public/fonts/Voyager_Light.otf");
+    src: url("/fonts/Voyager_Light.otf");
 }
 
 :root {
@@ -11,7 +11,7 @@
 
 
 .skills {
-    background-image: url("../../../public/imgs/home.jpg");
+    background-image: url("/imgs/home.jpg");
     display:flex;
     flex:1;
    
