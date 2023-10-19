@@ -1,0 +1,199 @@
+
+@font-face {
+    font-family: 'voyager';
+    src: url("../../../public/fonts/Voyager_Light.otf");
+}
+
+:root {
+    --primaryFont: 'voyager', 'Courier New', monospace, verdana, sans-serif;
+}
+
+
+
+.skills {
+    background-image: url("../../../public/imgs/home.jpg");
+    display:flex;
+    flex:1;
+   
+}
+
+.skills-container {
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    color: #edf6f9;
+    font-family: var(--primaryFont);
+    align-items: center;
+    justify-content: space-around;
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.skills-header {
+    font-size: 40px;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.knowledge-container {
+    display:flex;   
+    flex-direction: column;
+    padding: 1rem;
+    }
+
+.skills-data-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 575px;
+}
+
+.skills-data {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: #edf6f9;
+    margin: 1rem;
+    font-size: 12px;
+    width: 100px;
+}
+
+.skills-data--names {
+    margin-top: 1rem;
+}
+
+
+/* Skills experience */
+
+.skill-experience-container, .skills-edabit-exp, .skills-edabit-desc{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.skill-experience-container {
+    padding: 1.7rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    width: 80%;
+}
+.skills-edabit-exp > p {
+    margin-right: 1rem;
+}
+.skills-edabit-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+
+.skills-edabit-img {
+    display: flex;
+    justify-content: center;
+}
+.skills-edabit-img img, .skills-edabit-proof {
+    border-radius: 5px;
+    
+}
+
+.skills-edabit-dataContainer {
+    display: flex;
+}
+
+
+.skills-edabit-desc {
+    font-size: 0.8rem;
+    font-family: verdana;
+    color: #4ccaf0d0;
+    display: flex;
+    flex-direction: column;
+    word-wrap:normal;
+}
+
+.skills-edabit-data .edabit {
+    padding: 0.5rem;
+}
+
+.skills-edabitProof-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px red;
+}
+
+.skills-edabit-proof {
+    width: 2rem;
+    height: 4.5rem;
+    margin-left: 2rem;
+    cursor: zoom-in;
+}
+
+.zoomIn {
+    z-index: 1;
+    cursor: zoom-out;
+    width: 15rem;
+    height: 25rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.my {
+    color: #4ccaf0d0;
+}
+
+/* .skills-bars {
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #edf6f9;
+    margin: 50px 0 50px 20px; 
+}
+
+.skills-bar--progress {
+    background-color: rgba(211, 211, 211, 0.212);
+    color: #4ccaf0d0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.skills-bar--html {
+    background-color: #adb5bd;
+    border-radius: 10px;
+    width:90%;
+    height:18px;
+} */
+
+
+@media (max-width:700px) {
+    .skills-container {
+        width:95%;
+    }
+    .skills-data--names.skills-data--names {
+        font-size: 12px;
+        height: 1.5rem;
+    }
+    .skills-data {
+        margin: 50px 10px 0 10px;
+    }
+    .icons {
+        margin:0 15px;
+    }
+}
+
+@media (max-width:400px) {
+    .skills-header {
+        font-size: 25px;
+    }
+
+}

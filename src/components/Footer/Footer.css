@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'voyager';
+    src: url("../../../public/fonts/Voyager_Light.otf");
+}
+
+:root {
+    --primaryFont: 'voyager', 'Courier New', monospace, verdana, sans-serif;
+}
+
+
+.footer {
+    width:100%;
+    height:20px;
+    background-color: black;
+    display:flex;
+    color:#edf6f9;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    font-family: var(--primaryFont);
+    font-size: 8px;
+}
+
