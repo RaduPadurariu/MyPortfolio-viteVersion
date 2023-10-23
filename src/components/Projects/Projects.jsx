@@ -22,8 +22,8 @@ export const Projects = () => {
                     <div className="projects-title">
                         <div className="project-name"> Responsive <span className="project-name--color">Templates</span></div>
                         <div className="project-language" style={{color:"#1affa3"}}>
-                            <span className="projects-multipleLanguages" style={{color:"#ff664d"}}>HTML</span>
-                            <span className="projects-multipleLanguages" style={{color:"#4d79ff"}}>CSS</span>
+                            <span className="projects-multipleLanguages" style={{color:"#ff9180"}}>HTML</span>
+                            <span className="projects-multipleLanguages" style={{color:"#809fff"}}>CSS</span>
                             <span className="projects-multipleLanguages" style={{color:"#1affa3"}}>React</span>
                         </div>     
                     </div>

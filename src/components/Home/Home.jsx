@@ -60,14 +60,14 @@ export const Home = () => {
             <div className="aboutMe-social">
             
                 <a className="icons-container" href="https://linkedin.com/in/radu-padurariu-13688991" target="_blank" rel="noopener noreferrer">
-                    <img className="icons-social" height={32} src={IconLinkedin} alt="logo" />             
+                    <img className="icons-social" height={32} src={IconLinkedin} alt="logo" title="Linkedin"/>             
                 </a>
                
                 <a className="icons-container" href="https://github.com/RaduPadurariu" target="_blank" rel="noopener noreferrer" >
-                    <img className="icons-social" height={32} src={IconGithub} alt="logo"/>             
+                    <img className="icons-social" height={32} src={IconGithub} alt="logo" title="Github"/>             
                 </a>
                 <a className="icons-container" href="https://www.youtube.com/channel/UCx8xr9cB-5xIuM1t3VIUTaA" target="_blank" rel="noopener noreferrer">
-                    <img className="icons-social" height={32} src={IconYoutube} alt="logo" />             
+                    <img className="icons-social" height={32} src={IconYoutube} alt="logo" title="Youtube"/>             
                 </a>
             </div>
             </div>

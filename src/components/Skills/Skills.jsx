@@ -29,7 +29,7 @@ export const Skills = () => {
                         <div className="skills-data">
                             <div>
                                 <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noopener noreferrer">
-                                    <img className="icons" height={50} src={IconHtml} alt="logo" />             
+                                    <img className="icons" height={50} src={IconHtml} alt="no-logo" title="HTML documentation" />             
                                 </a>
                             </div>
                             <div className="skills-data--names">
@@ -40,7 +40,7 @@ export const Skills = () => {
                         <div className="skills-data">
                             <div>
                                 <a href="https://www.w3schools.com/css/" target="_blank" rel="noopener noreferrer">
-                                    <img className="icons" height={50} src={IconCss} alt="logo" />             
+                                    <img className="icons" height={50} src={IconCss} alt="no-logo" title="CSS documentation"/>             
                                 </a>
                             </div>
                             <div className="skills-data--names">
@@ -51,7 +51,7 @@ export const Skills = () => {
                         <div className="skills-data">
                             <div>
                                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
-                                    <img className="icons" height={50} src={IconJs} alt="logo" />             
+                                    <img className="icons" height={50} src={IconJs} alt="no-logo" title="Java Script documentation"/>             
                                 </a>
                             </div>
                             <div className="skills-data--names">
@@ -62,7 +62,7 @@ export const Skills = () => {
                         <div className="skills-data">
                             <div>
                                 <a href="https://www.typescriptlang.org/docs/" target="_blank" rel="noopener noreferrer">
-                                    <img className="icons" height={50} src={IconTs} alt="logo" />             
+                                    <img className="icons" height={50} src={IconTs} alt="no-logo" title="Type Script documentation"/>             
                                 </a>
                             </div>
                             <div className="skills-data--names">
@@ -73,7 +73,7 @@ export const Skills = () => {
                         <div className="skills-data">
                             <div>
                                 <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
-                                    <img className="icons" height={50} src={IconReact} alt="logo" />           
+                                    <img className="icons" height={50} src={IconReact} alt="no-logo" title="React documentation"/>           
                                 </a>
                             </div>
                             <div className="skills-data--names">
@@ -86,7 +86,7 @@ export const Skills = () => {
                         <div className="skills-data">
                             <div>
                                 <a href="https://nodejs.org/en/docs" target="_blank" rel="noopener noreferrer">
-                                    <img className="icons" height={50} src={IconNodejs} alt="logo" />             
+                                    <img className="icons" height={50} src={IconNodejs} alt="no-logo" title="NodeJS documentation"/>             
                                 </a>
                             </div>
                             <div className="skills-data--names">
@@ -98,7 +98,7 @@ export const Skills = () => {
                         <div className="skills-data">
                             <div>
                                 <a href="https://git-scm.com/doc" target="_blank" rel="noopener noreferrer">
-                                    <img className="icons" height={50} src={IconGit} alt="logo" />             
+                                    <img className="icons" height={50} src={IconGit} alt="no-logo" title="Git documentation"/>             
                                 </a>
                             </div>
                             <div className="skills-data--names">
@@ -110,7 +110,7 @@ export const Skills = () => {
                         <div className="skills-data">
                             <div>
                                 <a href="https://sass-lang.com/documentation/" target="_blank" rel="noopener noreferrer">
-                                    <img className="icons" height={50} src={IconSass} alt="logo" />             
+                                    <img className="icons" height={50} src={IconSass} alt="no-logo" title="SASS documentation"/>             
                                 </a>
                             </div>
                             <div className="skills-data--names">
@@ -130,7 +130,7 @@ export const Skills = () => {
                             <div className="skills-edabit-desc edabit"><p><em>891 different java script</em></p><p>problems solved</p></div>
                         </div>
                         <div className="skills-edabitProof-container">
-                            <img onClick={zoom} className={`skills-edabit-proof ${checkImgClick === false ? "" : "zoomIn"}`} src={IconEdabitXp} alt="" />
+                            <img onClick={zoom} className={`skills-edabit-proof ${checkImgClick === false ? "" : "zoomIn"}`} src={IconEdabitXp} alt="no-proof" title="Edabit Proof"/>
                         </div>
                     </div>
                     
