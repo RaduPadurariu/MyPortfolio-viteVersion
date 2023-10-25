@@ -116,7 +116,7 @@
     color: #edf6f9;
     text-align: center;
     width: 100%;
-    height: 82px;
+    height: 90px;
 }
 
 .project-name {
@@ -130,23 +130,48 @@
 
 .project-language{
     font-size: 0.8rem;
-    text-align: right;
-    margin: 0.5rem;
+    text-align: center;
+    margin: 0.8rem;
 }
+
 .projects-multipleLanguages {
     margin-left: 1rem;
 }
 
+.projects-description-container {
+    display: flex;
+    background-color: #edf6f9;
+}   
+
 .projects-description {
     font-size: 15px;
     font-family: 'Verdana';
-    background-color: #edf6f9;
     color: black;
     padding: 15px;
     text-align: justify;
     /* font-style: italic; */
+    flex: 3;
 }
 
+.github-link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color:#edf6f9;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.github-icon {
+    height:35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
 @media (max-width:370px) {
     .projects-header {
         font-size: 30px;

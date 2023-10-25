@@ -27,8 +27,12 @@ export const Projects = () => {
                             <span className="projects-multipleLanguages" style={{color:"#1affa3"}}>React</span>
                         </div>     
                     </div>
-                    <div className="projects-description">
-                        Various responsive templates, builded in a single website, created with HTML, CSS and React. 
+                    <div className="projects-description-container">
+                        <div className="projects-description">Various responsive templates, builded in a single website, created with HTML, CSS and React.</div>
+                        <a className="github-link-container" href="https://github.com/RaduPadurariu/responsivetemplates" target="_blank" rel="noopener noreferrer">
+                            <div className="github-link-image"><img className="github-icon" height={50} src={IconGithub} alt="logo" /> </div>
+                            <div className="github-link-title">Github</div>
+                        </a>
                     </div>   
                 </div>
                 
@@ -44,8 +48,12 @@ export const Projects = () => {
                         <div className="project-name"> Mini <span className="project-name--color">apps</span></div>
                         <div className="project-language" style={{color:"#ffdb4d"}}>java script</div>     
                     </div>
-                    <div className="projects-description">
-                        Mini apps and games where I experiment and explore different Java Script implementations. 
+                    <div className="projects-description-container">
+                        <div className="projects-description">Mini apps and games where I experiment and explore different Java Script implementations. </div>
+                        <a className="github-link-container" href="https://github.com/RaduPadurariu/jsminiapps" target="_blank" rel="noopener noreferrer">
+                            <div className="github-link-image"><img className="github-icon" height={50} src={IconGithub} alt="logo" /> </div>
+                            <div className="github-link-title">Github</div>
+                        </a>
                     </div>   
                 </div>
                 
@@ -61,8 +69,12 @@ export const Projects = () => {
                         <div className="project-name"> Simple <span className="project-name--color">tools</span></div>
                         <div className="project-language" style={{color:"#80bfff"}}>type script</div>     
                     </div>
-                    <div className="projects-description">
-                        Simple applications, most of them tools, where I improve my knowledge in Type Script. 
+                    <div className="projects-description-container">
+                        <div className="projects-description">Simple applications, most of them tools, where I improve my knowledge in Type Script.  </div>
+                        <a className="github-link-container" href="https://github.com/RaduPadurariu/tssimpleapps" target="_blank" rel="noopener noreferrer">
+                            <div className="github-link-image"><img className="github-icon" height={50} src={IconGithub} alt="logo" /> </div>
+                            <div className="github-link-title">Github</div>
+                        </a>
                     </div>   
                 </div>
 
@@ -79,8 +91,12 @@ export const Projects = () => {
                         <div className="project-name"> Personal <span className="project-name--color">Projects</span></div>
                         <div className="project-language" style={{color:"#ffdb4d"}}>FRONTEND</div>     
                     </div>
-                    <div className="projects-description">
-                        Free live projects, created for different communities, where I try to implement unique and original Frontend requests. 
+                    <div className="projects-description-container">
+                        <div className="projects-description">Free live projects, created for different communities, where I try to implement unique and original Frontend requests.   </div>
+                        <a className="github-link-container" href="https://github.com/RaduPadurariu" target="_blank" rel="noopener noreferrer">
+                            <div className="github-link-image"><img className="github-icon" height={50} src={IconGithub} alt="logo" /> </div>
+                            <div className="github-link-title">Github</div>
+                        </a>
                     </div>   
                 </div>
 
@@ -97,8 +113,12 @@ export const Projects = () => {
                         <div className="project-name"> Database<span className="project-name--color"> Applications</span></div>
                         <div className="project-language" style={{color:"#dddddd"}}>M.E.R.N.</div>     
                     </div>
-                    <div className="projects-description">
-                        Applications created with M.E.R.N., where user data is saved in MongoDB (includes real register and login functionalities).  
+                    <div className="projects-description-container">
+                        <div className="projects-description"> Applications created with M.E.R.N., where user data is saved in MongoDB (includes real register and login functionalities).    </div>
+                        <a className="github-link-container" href="https://github.com/RaduPadurariu/TavernOfHeroes" target="_blank" rel="noopener noreferrer">
+                            <div className="github-link-image"><img className="github-icon" height={50} src={IconGithub} alt="logo" /> </div>
+                            <div className="github-link-title">Github</div>
+                        </a> 
                     </div>   
                 </div>
 
@@ -120,8 +140,12 @@ export const Projects = () => {
                             <span className="projects-multipleLanguages" style={{color:"#aa80ff"}}>PHP</span>
                         </div>     
                     </div>
-                    <div className="projects-description">
-                        More complex and advance applications with React that require API calls or backend knowledge. (Fullstack projects). 
+                    <div className="projects-description-container">
+                        <div className="projects-description">  More complex and advance applications with React that require API calls or backend knowledge. (Fullstack projects).    </div>
+                        <a className="github-link-container" href="https://github.com/RaduPadurariu" target="_blank" rel="noopener noreferrer">
+                            <div className="github-link-image"><img className="github-icon" height={50} src={IconGithub} alt="logo" /> </div>
+                            <div className="github-link-title">Github</div>
+                        </a>  
                     </div>   
                 </div>
 {/* 
