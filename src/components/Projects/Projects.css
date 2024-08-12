@@ -1,185 +1,180 @@
 @font-face {
-    font-family: 'voyager';
-    src: url("/fonts/Voyager_Light.otf");
+  font-family: "voyager";
+  src: url("/fonts/Voyager_Light.otf");
 }
 
 :root {
-    --primaryFont: 'voyager', 'Courier New', monospace, verdana, sans-serif;
+  --primaryFont: "voyager", "Courier New", monospace, verdana, sans-serif;
 }
 
-
 .projects {
-    background-image: url("/imgs/home.jpg");
-    display:flex;
-    flex:1;
-    flex-direction: column;
-    font-family: var(--primaryFont);
-    color: #edf6f9;
-    align-items: center;
-    overflow: auto;
+  background-image: url("/imgs/home.jpg");
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-family: var(--primaryFont);
+  color: #edf6f9;
+  align-items: center;
+  overflow: auto;
 }
 
 /* Header */
 .projects-header {
-    font-size: 40px;
-    margin-top: 50px;
-    animation: slideIn 1s ease forwards;
-    text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  animation: slideIn 1s ease forwards;
+  text-align: center;
 }
 
 .projects-note {
-    font-size: 0.8rem;
-    color: #4ccaf0;
-    font-family: sans-serif;
-    width: 75%;
-    margin: 0 auto;
-    margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #4ccaf0;
+  font-family: sans-serif;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 2rem;
 }
 
 @keyframes slideIn {
-    0% {
-        transform: translateX(0px) scale(0.2);
-    }
-    100% {
-        transform: translateX(0px) scale(1);
-    }
+  0% {
+    transform: translateX(0px) scale(0.2);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
 }
 .my {
-   
-    color: #4ccaf0d0;
+  color: #4ccaf0d0;
 }
 
 /* Projects */
 
 .projects-container {
-    width: 100%;
-    display:flex;   
-    margin:40px 0;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1500px;
+  width: 100%;
+  display: flex;
+  margin: 40px 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1500px;
 }
 
 .projects-myProjects {
-    border:5px solid darkgrey;
-    border-radius: 10px;
-    /* box-shadow: 3px 3px 20px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: black;
-    width: 400px;
-    margin:40px 20px;
-    text-decoration: none;
-    color: white;
-   
+  border: 5px solid darkgrey;
+  border-radius: 10px;
+  /* box-shadow: 3px 3px 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  width: 400px;
+  margin: 40px 20px;
+  text-decoration: none;
+  color: white;
 }
 
 .projects-image--container {
-    position:relative;
+  position: relative;
 }
 .project-link {
-    display:none;
-    position:absolute;
-    flex-direction: column;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.3);
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    top:0;
-} 
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  top: 0;
+}
 
-
-.projects-image--container:hover .project-link { 
-    display: flex;
-    
+.projects-image--container:hover .project-link {
+  display: flex;
 }
 
 .icons-project {
-    height:70px;
-    margin-top: 100px;
-    background-color: #dddddd;
-    border-radius: 50%;
+  height: 70px;
+  margin-top: 100px;
+  background-color: #dddddd;
+  border-radius: 50%;
 }
 
-
 .projects-image {
-    width: 100%;
-    
+  width: 100%;
 }
 
 .projects-title {
-    display: flex;
-    flex-direction: column;
-    color: #edf6f9;
-    text-align: center;
-    width: 100%;
-    height: 90px;
+  display: flex;
+  flex-direction: column;
+  color: #edf6f9;
+  text-align: center;
+  width: 100%;
+  height: 90px;
 }
 
 .project-name {
-    font-size: 23px;
-    margin: 1.3rem 0 0.2rem 0;
-
+  font-size: 23px;
+  margin: 1.3rem 0 0.2rem 0;
 }
 .project-name--color {
-    color:  #4ccaf0;
+  color: #4ccaf0;
 }
 
-.project-language{
-    font-size: 0.8rem;
-    text-align: center;
-    margin: 0.5rem 0 3rem 0;
+.project-language {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0.5rem 0 3rem 0;
 }
 
 .projects-multipleLanguages {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .projects-description-container {
-    display: flex;
-}   
+  display: flex;
+}
 
 .projects-description {
-    font-size: 15px;
-    font-family: 'Verdana';
-    background-color: #edf6f9;
-    color: black;
-    padding: 15px;
-    text-align: justify;
-    /* font-style: italic; */
-    flex: 3;
+  font-size: 15px;
+  font-family: "Verdana";
+  background-color: #edf6f9;
+  color: black;
+  padding: 15px;
+  /* text-align: justify; */
+  /* font-style: italic; */
+  flex: 3;
 }
 
 .github-link-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    background-color:#edf6f9;
-    color: black;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 10px;
-    /* font-weight: bold; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color: #edf6f9;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  /* font-weight: bold; */
 }
 
 .github-icon {
-    height:40px;
-    background-color: white;
-    border-radius: 50%;
-    margin-bottom: 10px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
-@media (max-width:370px) {
-    .projects-header {
-        font-size: 30px;
-    }
+@media (max-width: 370px) {
+  .projects-header {
+    font-size: 30px;
+  }
 }
-
 
 /* special planetary css animation */
 /* .projects-image--planetary {
@@ -202,10 +197,6 @@
 @keyframes spin {
     100% {background-position:100%;}
 } */
-
-
-
-
 
 /* Eye animation in progress */
 
@@ -230,7 +221,7 @@
     }
     50% {
         /* box-shadow: -20px -20px 20px 1px; */
-        /* background-color: lightcoral;
+/* background-color: lightcoral;
     }
     100% {
         box-shadow: -20px -20px 50px 10px;
