@@ -104,12 +104,12 @@ export const Projects = () => {
             </div>
             <div className="project-language">
               <div>
-                <span
+                {/* <span
                   className="projects-multipleLanguages"
                   style={{ color: "#80bfff" }}
                 >
                   Type Script
-                </span>
+                </span> */}
                 <span
                   className="projects-multipleLanguages"
                   style={{ color: "#1affa3" }}
@@ -273,12 +273,12 @@ export const Projects = () => {
                 >
                   JAVA SCRIPT
                 </span>
-                <span
+                {/* <span
                   className="projects-multipleLanguages"
                   style={{ color: "#ffb366" }}
                 >
                   NODE JS
-                </span>
+                </span> */}
               </div>
 
               <div>
@@ -296,7 +296,8 @@ export const Projects = () => {
           <div className="projects-description-container">
             <div className="projects-description">
               Draft mini apps and games, with no focus on styling, where I
-              experiment and explore different Java Script implementations.{" "}
+              experiment and explore different Java Script implementations. Some
+              projects are made with Node JS and deployed on Heroku.{" "}
             </div>
           </div>
         </div>
@@ -331,12 +332,12 @@ export const Projects = () => {
                 >
                   TYPE SCRIPT
                 </span>
-                <span
+                {/* <span
                   className="projects-multipleLanguages"
                   style={{ color: "#cc99ff" }}
                 >
                   WEBPACK
-                </span>
+                </span> */}
               </div>
 
               <div>
@@ -354,7 +355,8 @@ export const Projects = () => {
           <div className="projects-description-container">
             <div className="projects-description">
               Draft applications, most of them tools, with no focus on styling,
-              where I explore and improve my knowledge in Type Script.{" "}
+              where I explore and improve my knowledge in Type Script and
+              webpack.{" "}
             </div>
           </div>
         </div>
