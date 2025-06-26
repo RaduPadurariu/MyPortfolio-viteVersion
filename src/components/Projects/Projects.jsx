@@ -19,7 +19,7 @@ export const Projects = () => {
       </div>
       <div className="projects-container">
         {/* React */}
-        <div className="projects-myProjects">
+        {/* <div className="projects-myProjects">
           <div className="projects-image--container">
             <img
               className="projects-image"
@@ -73,10 +73,10 @@ export const Projects = () => {
               passion for building frontend applications.
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Complex Projects */}
 
-        <div className="projects-myProjects">
+        {/* <div className="projects-myProjects">
           <div className="projects-image--container">
             <img
               className="projects-image"
@@ -104,12 +104,7 @@ export const Projects = () => {
             </div>
             <div className="project-language">
               <div>
-                {/* <span
-                  className="projects-multipleLanguages"
-                  style={{ color: "#80bfff" }}
-                >
-                  Type Script
-                </span> */}
+      
                 <span
                   className="projects-multipleLanguages"
                   style={{ color: "#1affa3" }}
@@ -137,11 +132,11 @@ export const Projects = () => {
               versions of React and Router. (Current version: Router v6.4 ).
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Pesonal */}
 
-        <div className="projects-myProjects">
+        {/* <div className="projects-myProjects">
           <div className="projects-image--container">
             <img
               className="projects-image"
@@ -187,10 +182,10 @@ export const Projects = () => {
               to implement unique and original Frontend requests.{" "}
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Mern */}
-        <div className="projects-myProjects">
+        {/* <div className="projects-myProjects">
           <div className="projects-image--container">
             <img
               className="projects-image"
@@ -236,7 +231,7 @@ export const Projects = () => {
               MongoDB (includes real register and login functionalities).{" "}
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Java script */}
         <div className="projects-myProjects">
@@ -247,9 +242,10 @@ export const Projects = () => {
               alt="pic"
             />
             <a
-              href="https://jsminiapps.herokuapp.com"
+              href="https://jsminiapps.netlify.app"
               rel="noopener noreferrer"
               className="project-link"
+              target="_blank"
             >
               <img
                 className="icons-project"
@@ -310,6 +306,7 @@ export const Projects = () => {
               href="https://tssimpleapps.netlify.app"
               rel="noopener noreferrer"
               className="project-link"
+              target="_blank"
             >
               <img
                 className="icons-project"
