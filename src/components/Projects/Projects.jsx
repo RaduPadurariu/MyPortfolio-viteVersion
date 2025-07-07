@@ -11,9 +11,9 @@ export const Projects = () => {
         </div>
         <div className="projects-note">
           <em>
-            <strong>NOTE:</strong> Some websites that required backend are
+            {/* <strong>NOTE:</strong> Some websites that required backend are
             deployed on Heroku App in sleep mode. Please wait few seconds until
-            they open.{" "}
+            they open.{" "} */}
           </em>
         </div>
       </div>
