@@ -1,5 +1,4 @@
 import "./Projects.css";
-import IconGithub from "../Icons/github.svg";
 import Arrow from "../Icons/arrow.png";
 
 export const Projects = () => {
@@ -18,6 +17,131 @@ export const Projects = () => {
         </div>
       </div>
       <div className="projects-container">
+        {/* Java script */}
+        <div className="projects-myProjects">
+          <div className="projects-image--container">
+            <img
+              className="projects-image"
+              src="../imgs/miniapps.png"
+              alt="pic"
+            />
+            <a
+              href="https://jsminiapps.netlify.app"
+              rel="noopener noreferrer"
+              className="project-link"
+              target="_blank"
+            >
+              <img
+                className="icons-project"
+                height={50}
+                src={Arrow}
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div className="projects-title">
+            <div className="project-name">
+              {" "}
+              Mini <span className="project-name--color">apps</span>
+            </div>
+            <div className="project-language" style={{ color: "#ffdb4d" }}>
+              <div>
+                {" "}
+                <span
+                  className="projects-multipleLanguages"
+                  style={{ color: "#ffdb4d" }}
+                >
+                  JAVA SCRIPT
+                </span>
+                {/* <span
+                  className="projects-multipleLanguages"
+                  style={{ color: "#ffb366" }}
+                >
+                  NODE JS
+                </span> */}
+              </div>
+
+              <div>
+                <a
+                  className="github-link-container"
+                  href="https://github.com/RaduPadurariu/jsminiapps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="github-link-title">Github</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="projects-description-container">
+            <div className="projects-description">
+              Draft mini apps and games, with no focus on styling, where I
+              experiment and explore different Java Script implementations. Some
+              projects are made with Node JS and deployed on Heroku.{" "}
+            </div>
+          </div>
+        </div>
+
+        {/* Typescript */}
+        <div className="projects-myProjects">
+          <div className="projects-image--container">
+            <img className="projects-image" src="../imgs/ts.jpg" alt="pic" />
+            <a
+              href="https://tssimpleapps.netlify.app"
+              rel="noopener noreferrer"
+              className="project-link"
+              target="_blank"
+            >
+              <img
+                className="icons-project"
+                height={50}
+                src={Arrow}
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div className="projects-title">
+            <div className="project-name">
+              {" "}
+              Simple <span className="project-name--color">tools</span>
+            </div>
+            <div className="project-language" style={{ color: "#80bfff" }}>
+              <div>
+                <span
+                  className="projects-multipleLanguages"
+                  style={{ color: "#80bfff" }}
+                >
+                  TYPE SCRIPT
+                </span>
+                {/* <span
+                  className="projects-multipleLanguages"
+                  style={{ color: "#cc99ff" }}
+                >
+                  WEBPACK
+                </span> */}
+              </div>
+
+              <div>
+                <a
+                  className="github-link-container"
+                  href="https://github.com/RaduPadurariu/tssimpleapps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="github-link-title">Github</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="projects-description-container">
+            <div className="projects-description">
+              Draft applications, most of them tools, with no focus on styling,
+              where I explore and improve my knowledge in Type Script and
+              webpack.{" "}
+            </div>
+          </div>
+        </div>
+
         {/* React */}
         {/* <div className="projects-myProjects">
           <div className="projects-image--container">
@@ -232,131 +356,6 @@ export const Projects = () => {
             </div>
           </div>
         </div> */}
-
-        {/* Java script */}
-        <div className="projects-myProjects">
-          <div className="projects-image--container">
-            <img
-              className="projects-image"
-              src="../imgs/miniapps.png"
-              alt="pic"
-            />
-            <a
-              href="https://jsminiapps.netlify.app"
-              rel="noopener noreferrer"
-              className="project-link"
-              target="_blank"
-            >
-              <img
-                className="icons-project"
-                height={50}
-                src={Arrow}
-                alt="logo"
-              />
-            </a>
-          </div>
-          <div className="projects-title">
-            <div className="project-name">
-              {" "}
-              Mini <span className="project-name--color">apps</span>
-            </div>
-            <div className="project-language" style={{ color: "#ffdb4d" }}>
-              <div>
-                {" "}
-                <span
-                  className="projects-multipleLanguages"
-                  style={{ color: "#ffdb4d" }}
-                >
-                  JAVA SCRIPT
-                </span>
-                {/* <span
-                  className="projects-multipleLanguages"
-                  style={{ color: "#ffb366" }}
-                >
-                  NODE JS
-                </span> */}
-              </div>
-
-              <div>
-                <a
-                  className="github-link-container"
-                  href="https://github.com/RaduPadurariu/jsminiapps"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="github-link-title">Github</div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="projects-description-container">
-            <div className="projects-description">
-              Draft mini apps and games, with no focus on styling, where I
-              experiment and explore different Java Script implementations. Some
-              projects are made with Node JS and deployed on Heroku.{" "}
-            </div>
-          </div>
-        </div>
-
-        {/* Typescript */}
-        <div className="projects-myProjects">
-          <div className="projects-image--container">
-            <img className="projects-image" src="../imgs/ts.jpg" alt="pic" />
-            <a
-              href="https://tssimpleapps.netlify.app"
-              rel="noopener noreferrer"
-              className="project-link"
-              target="_blank"
-            >
-              <img
-                className="icons-project"
-                height={50}
-                src={Arrow}
-                alt="logo"
-              />
-            </a>
-          </div>
-          <div className="projects-title">
-            <div className="project-name">
-              {" "}
-              Simple <span className="project-name--color">tools</span>
-            </div>
-            <div className="project-language" style={{ color: "#80bfff" }}>
-              <div>
-                <span
-                  className="projects-multipleLanguages"
-                  style={{ color: "#80bfff" }}
-                >
-                  TYPE SCRIPT
-                </span>
-                {/* <span
-                  className="projects-multipleLanguages"
-                  style={{ color: "#cc99ff" }}
-                >
-                  WEBPACK
-                </span> */}
-              </div>
-
-              <div>
-                <a
-                  className="github-link-container"
-                  href="https://github.com/RaduPadurariu/tssimpleapps"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="github-link-title">Github</div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="projects-description-container">
-            <div className="projects-description">
-              Draft applications, most of them tools, with no focus on styling,
-              where I explore and improve my knowledge in Type Script and
-              webpack.{" "}
-            </div>
-          </div>
-        </div>
 
         {/* 
                 <a href="https://github.com/RaduPadurariu" target="_blank" rel="noopener noreferrer" className="projects-myProjects">

@@ -5,7 +5,6 @@ import IconYoutube from "../Icons/youtube.svg";
 import IconLinkedin from "../Icons/linkedin.svg";
 import IconGithub from "../Icons/github.svg";
 import { Typical } from "./Typical";
-import React from "react";
 
 export const Home = () => {
   return (
@@ -54,7 +53,7 @@ export const Home = () => {
           </NavLink>
           <NavLink
             className="contact-btn-homepage"
-            to="https://radupadurariu2025.netlify.app"
+            to="https://radupadurariu.netlify.app"
             target="_blank"
           >
             Portfolio
