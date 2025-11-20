@@ -1,9 +1,5 @@
-import "./Footer.css"
+import "./Footer.css";
 
 export const Footer = () => {
-    return (
-        <div className="footer">
-            @Copyright 2022 - Radu Padurariu
-        </div>
-    )
-}
+  return <div className="footer">@2022 - Radu Padurariu</div>;
+};
