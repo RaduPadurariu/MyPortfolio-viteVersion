@@ -1,17 +1,20 @@
-# My First portfolio (2022)
+# My First Portfolio (2022)
 
-This is my final project from Web Development course and is my first personal portfolio. Was build with React and CSS.
+This is my final project for the Web Development course and also my first personal portfolio. It was built using React and CSS.
 
-The portfolio contains two projects:
+The portfolio includes two draft projects:
 
-1. https://jsminiapps.netlify.app
-   Draft mini apps and games, with no focus on styling, where I experiment and explore different JavaScript implementations. Some projects are made with Node JS and deployed on Heroku.
+https://jsminiapps.netlify.app
 
-2. https://tssimpleapps.netlify.app
-   Draft applications, most of them tools, with no focus on styling, where I explore and improve my knowledge in TypeScript and webpack.
+A collection of small apps and games, focused on JavaScript functionality rather than styling. Some projects are built with Node.js and were originally deployed on Heroku.
 
-Can be found on https://radufirstportfolio.netlify.app
+https://tssimpleapps.netlify.app
 
-Technologies used: React, CSS, JS, TypeScript, Webpack, NodeJS, Axios
+A set of draft applications (mostly tools) where I explored and improved my TypeScript and webpack knowledge.
 
-All rights reserved - Radu Padurariu 2022
+You can find the full portfolio here:
+https://radufirstportfolio.netlify.app
+
+Technologies used: React, CSS, JavaScript, TypeScript, Webpack, Node.js, Axios
+
+All rights reserved — Radu Padurariu, 2022
